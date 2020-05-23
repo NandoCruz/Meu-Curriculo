@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@import url('htps://fonts.googleapis.com/css?family=Allerta|Cantarell|Titillium+Web');
+
+/* corpo: tipo de fonte, cor da fonte e cor do fundo*/
+body {
+    font-family: 'Titillium Web', sans-serif;
+    color: #000050;
+    background-color: #e5e5ff;
+    margin: 0px auto 0px auto;
+}
+
+/* imagem de fundo */
+div#interface img#foto {
+    position: absolute;
+    margin-top: 70px;
+}
+
+/* posição da imagem do menu */
+header#cabecalho img#icone {
+    position: absolute;
+    background-color: #e5e5ff;
+    padding: 20px;
+    margin-left: 1075px;
+    margin-top: 140px;
+}
+
+/* cabeçalho */
+/* posição do titulo Fernando Cruz */
+header#cabecalho h2#nome {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* Formatação do menu */
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none; /* tira o estilo da lista */
+    text-transform: uppercase; /* caixa alta */
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 10px;
+}
+
+/* Dando efeito ao menu */
+nav#menu li {
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    transition: background-color 1s;
+}
+/* quando passar o mouse em cima do menu ele fica negrito */
+nav#menu li:hover {
+    font-weight: bold;
+}
+
+/* ocultanto o titulo do menu */
+nav#menu h1 {
+    display: none;
+}
+
+/* tirando a decoração do link menu */
+nav#menu a {
+    color: #000050;
+    text-decoration: none;
+}
+nav#menu a:hover {
+    color: #000050;
+}
+
+/* interface (a parte branca)*/
+div#interface section#corpo {
+    width: 800px;
+    position: absolute;
+    background-color: #ffffff;
+    margin: 70px -50px 0px 250px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,.5);
+}
+
+/* Minha foto */
+section#corpo img#foto1 {
+    display: block;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+/* Meus dados */
+aside#lateral {
+    display: block;
+    position: relative;
+    float: right;
+    margin-right: 100px;
+    margin-top: -290px;
+}
+
+/* lateral minha direita */
+aside#lateral h1 { /* meu nome */
+    font-size: 27pt;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+/* meus dados */
+aside#lateral h2 {
+    font-size: 12pt;
+    margin-top: -5px;
+    color: #606060;
+}
+
+/* end - fone - data */
+aside#lateral h3 {
+    font-size: 15pt;
+    margin-top: 0px;
+    margin-bottom: -5px;
+}
+
+/* rodape (as redes sociais) */
+section#rede-social {
+    position: relative;
+    display: block;
+    width: 230px;
+    padding: 5px;
+    margin-left: 90px;
+    margin-top: -20px;
+    text-align: center;
+    color: #000050;
+    background-color: #c5c5ff;
+    box-shadow: 3px 3px 3px rgba(0,0,80,.5);
+}
+
+section#rede-social a{
+    color: #000050;
+    text-decoration: none;
+}
+/* Passando o mouse por cima */
+section#rede-social a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* texto "Olá Sou Fernando Cruz" */
+aside#lateral_01 {
+    clear: both;
+    padding: 10px 40px 0px 40px;
+}
+
+/* Barra acima do texto e Olá sou Fernando Cruz */
+aside#lateral_01 h1 {
+    position: relative;
+    border-top: 3px solid #000050;
+    margin-top: 15px;
+    font-size: 25pt;
+    text-align: center;
+}
+
+/* Texto parágrafo */
+aside#lateral_01 p {
+    position: relative;
+    font-size: 12pt;
+    text-align: justify;
+    text-indent: 50px;
+    margin-top: -30px;
+    margin-bottom: -20px;
+}
+
+/* roda pé */
+section#corpo footer#rodape {
+    clear: both;
+    position: relative;
+    width: 800px;
+    margin-top: 10px;
+    border-top: 2px solid #000050;
+}
+
+section#corpo footer#rodape p {
+    text-align: center;
+    font-size: 10pt;
+    margin-top: 10px;
+}

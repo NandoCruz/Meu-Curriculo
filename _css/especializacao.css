@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* Texto da lateral esquerda */
+aside#lateral_01 {
+    position: relative;
+    display: block;
+    float: left;
+    font-size: 18pt;
+    padding-left: 50px;
+}
+
+/* Texto da Lateral direita */
+aside#lateral_02 {
+    position: relative;
+    display: block;
+    float: right;
+    font-size: 18pt;
+    padding-right: 50px;    
+}

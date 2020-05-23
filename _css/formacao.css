@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* imagem das aspas */
+section#corpo img#aspas {
+    position: relative;
+    background-color: #000050;
+    padding: 50px 590px 50px 80px;
+    margin-top: 30px;
+}
+
+/* Frase do fundo azul */
+section#corpo p#frase{
+    position: relative;
+    margin-top: -215px;
+    font-size: 16pt;
+    color: #ffffff;
+    padding: 20px 0px 20px 320px;
+}
+
+/* Texto Fernando */
+section#corpo h3{
+    font-size: 20pt;
+    text-align: right;
+    margin-top: -10px;
+    padding-right: 30px;
+}
+
+section#corpo p#agradecimento{
+    font-size: 14pt;
+    text-align: justify;
+    text-indent: 50px;
+    padding: 0px 30px 0px 30px;
+}

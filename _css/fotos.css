@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+/* titulo Galeria de fotos */
+section#corpo h1 {
+   font-size: 24pt;
+   margin: 0px 0px -10px 30px;
+   padding-top: 10px; 
+}
+
+/* Atualizado 21/04/2020 */
+section#corpo h2 {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 0px;
+    margin-right: 30px;
+}
+
+/* texto paragrafo da página */
+section#corpo p {
+    font-size: 16pt;
+    text-align: justify;
+    text-indent: 50px;
+    margin: 0px 30px 0px 30px;
+}
+
+/* Bloco de fotos */
+ul#album-fotos {
+    width: 800px;
+    margin: auto;
+    padding: 50px;
+    list-style: none;
+    overflow: hidden;
+}
+
+/* Configurando os quadros */
+ul#album-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+    -webkit-transition: all .5s ease-in;
+}
+/* Quando passar o mouse em cima almenta a foto */
+ul#album-fotos li:hover {
+    -webkit-transform: scale(1.5);
+}
+
+/* Configurando texto das fotos */
+ul#album-fotos li span {
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0,0,80,.3);
+    font-size: 12px;
+    line-height: 360px;
+    padding: 5px;
+}
+
+/* quando passar o mouse em cima */
+ul#album-fotos li:hover span {
+    opacity: 1;
+}
+
+/* Adicionando foto 1 */
+/* Posição Original da Foto */
+ul#album-fotos li#foto1 {
+    background: url('../_imagens/post-cartao.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+/* zoom da foto */
+ul#album-fotos li#foto1:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+/* Adicionando foto 2 */
+ul#album-fotos li#foto2 {
+    background: url('../_imagens/post-panfleto.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+/* posição original da foto */
+ul#album-fotos li#foto2:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+/* Adicionando fotos 3 */
+section#corpo ul#album-fotos li#foto3 {
+    background: url('../_imagens/post-caneca.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+/* posição original da foto */
+section#corpo ul#album-fotos li#foto3:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/* Adicionando foto 4 */
+section#corpo ul#album-fotos li#foto4 {
+    background: url('../_imagens/post-site.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+/* posição original da foto */
+section#corpo ul#album-fotos li#foto4:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/* Adicionando foto 5 */
+section#corpo ul#album-fotos li#foto5 {
+    background: url('../_imagens/post-camisa.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+/* posição original da foto */
+section#corpo ul#album-fotos li#foto5:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/* Adicionando foto 6 */
+section#corpo ul#album-fotos li#foto6 {
+    background: url('../_imagens/post-suporte.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+/* posição original da foto */
+section#corpo ul#album-fotos li#foto6:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}

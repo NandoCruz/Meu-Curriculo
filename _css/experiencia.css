@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+section#corpo h1 {
+    font-size: 18pt;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+}
+
+section#corpo h2 {
+    font-size: 14pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+}
+
+section#corpo p {
+    font-size: 12pt;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 100px;
+}
