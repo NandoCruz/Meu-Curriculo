@@ -67,7 +67,7 @@ ul#album-fotos li:hover span {
 /* Adicionando foto 1 */
 /* Posição Original da Foto */
 ul#album-fotos li#foto1 {
-    background: url('../imagens/post-cartao.png') no-repeat;
+    background: url('imagens/post-cartao.png') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
@@ -80,7 +80,7 @@ ul#album-fotos li#foto1:hover {
 
 /* Adicionando foto 2 */
 ul#album-fotos li#foto2 {
-    background: url('../imagens/post-panfleto.png') no-repeat;
+    background: url('imagens/post-panfleto.png') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
@@ -93,7 +93,7 @@ ul#album-fotos li#foto2:hover {
 
 /* Adicionando fotos 3 */
 section#corpo ul#album-fotos li#foto3 {
-    background: url('../imagens/post-caneca.png') no-repeat;
+    background: url('imagens/post-caneca.png') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
@@ -105,7 +105,7 @@ section#corpo ul#album-fotos li#foto3:hover {
 }
 /* Adicionando foto 4 */
 section#corpo ul#album-fotos li#foto4 {
-    background: url('../imagens/post-site.png') no-repeat;
+    background: url('imagens/post-site.png') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
@@ -117,7 +117,7 @@ section#corpo ul#album-fotos li#foto4:hover {
 }
 /* Adicionando foto 5 */
 section#corpo ul#album-fotos li#foto5 {
-    background: url('../imagens/post-camisa.png') no-repeat;
+    background: url('imagens/post-camisa.png') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
@@ -129,7 +129,7 @@ section#corpo ul#album-fotos li#foto5:hover {
 }
 /* Adicionando foto 6 */
 section#corpo ul#album-fotos li#foto6 {
-    background: url('../imagens/post-suporte.png') no-repeat;
+    background: url('imagens/post-suporte.png') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
