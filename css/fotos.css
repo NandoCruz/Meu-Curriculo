@@ -41,11 +41,11 @@ ul#album-fotos li {
     border: 5px solid #ffffff;
     background-color: #ffffff;
     box-shadow: 1px 1px 3px rgba(0,0,0,.5);
-    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
 }
 /* Quando passar o mouse em cima almenta a foto */
 ul#album-fotos li:hover {
-    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 /* Configurando texto das fotos */
