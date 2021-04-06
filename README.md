@@ -1,6 +1,6 @@
-# meu-curriculum 
+# Meu Currículo
 
- Esse é o meu curriculum feito no curso de Análise e Desenvolvimento de sistema na Unama usando o material do Professor Guanabara do Curso em Vídeo.
+ Esse é o meu currículo feito no curso de ADS na Universidade da Amazônia (Unama), usando o material do Professor Guanabara do Curso em Vídeo.
  Clique no link para ver como ficou. [Curriculum](https://nandocruz.github.io/Meu-Curriculo/)
  
 
