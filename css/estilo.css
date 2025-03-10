@@ -1,6 +1,12 @@
 @charset "UTF-8";
 @import url('htps://fonts.googleapis.com/css?family=Allerta|Cantarell|Titillium+Web');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    
+}
 /* corpo: tipo de fonte, cor da fonte e cor do fundo*/
 body {
     font-family: 'Titillium Web', sans-serif;
@@ -13,174 +19,132 @@ body {
 div#interface img#foto {
     position: absolute;
     margin-top: 70px;
-}
-
-/* posição da imagem do menu */
-header#cabecalho img#icone {
-    position: absolute;
-    background-color: #e5e5ff;
-    padding: 20px;
-    margin-left: 1075px;
-    margin-top: 140px;
+    width: 100vw;
+    height: 40%;
 }
 
 /* cabeçalho */
-/* posição do titulo Fernando Cruz */
-header#cabecalho h2#nome {
-    position: absolute;
-    margin-left: 30px;
-    margin-top: 17px;
+header{
+    position: fixed;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
 }
 
 /* Formatação do menu */
-nav#menu {
-    display: block;
-}
-
-nav#menu ul {
-    list-style: none; /* tira o estilo da lista */
-    text-transform: uppercase; /* caixa alta */
-    position: absolute;
-    margin-left: 600px;
-    margin-top: 10px;
-}
-
-/* Dando efeito ao menu */
-nav#menu li {
-    display: inline-block;
-    padding: 10px;
-    margin: 2px;
-    -webkit-transition: background-color 1s;
-    -moz-transition: background-color 1s;
-    transition: background-color 1s;
-}
-
-/* quando passar o mouse em cima do menu ele fica negrito */
-nav#menu li:hover {
-    font-weight: bold;
-}
-
-/* ocultanto o titulo do menu */
-nav#menu h1 {
+nav h1{
     display: none;
 }
 
-/* tirando a decoração do link menu */
-nav#menu a {
-    color: #000050;
+nav a{
     text-decoration: none;
 }
-nav#menu a:hover {
+
+nav ul{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
     color: #000050;
 }
 
-/* interface (a parte branca)*/
-div#interface section#corpo {
-    width: 800px;
-    position: absolute;
-    background-color: #ffffff;
-    margin: 70px -50px 0px 250px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,.5);
+nav ul li{
+    display: inline-block;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    transition: background-color 1s;
+    text-transform: uppercase;
 }
 
-/* Minha foto */
-section#corpo img#foto1 {
-    display: block;
-    position: relative;
-    margin-left: 50px;
-    margin-top: 20px;
-}
-
-/* Meus dados */
-aside#lateral {
-    display: block;
-    position: relative;
-    float: right;
-    margin-right: 80px;
-    margin-top: -290px;
-}
-
-/* lateral minha direita */
-aside#lateral h1 { /* meu nome */
-    font-size: 27pt;
-    margin-top: -10px;
-    margin-bottom: -10px;
-}
-
-/* meus dados */
-aside#lateral h2 {
-    font-size: 12pt;
-    margin-top: 10px;
-    color: #606060;
-}
-
-/* end - fone - data */
-aside#lateral h3 {
-    font-size: 15pt;
-    margin-top: 30px;
-    margin-bottom: -5px;
-}
-
-/* rodape (as redes sociais) */
-section#rede-social {
-    position: relative;
-    display: block;
-    width: 230px;
-    padding: 5px;
-    margin-left: 90px;
-    margin-top: -20px;
-    text-align: center;
-    color: #000050;
-    background-color: #c5c5ff;
-    box-shadow: 3px 3px 3px rgba(0,0,80,.5);
-}
-
-section#rede-social a{
-    color: #000050;
-    text-decoration: none;
-}
-/* Passando o mouse por cima */
-section#rede-social a:hover {
+nav ul li:hover{
     font-weight: bold;
-    text-decoration: none;
+    color: #da00fc;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
 }
 
-/* texto "Olá Sou Fernando Cruz" */
-aside#lateral_01 {
-    clear: both;
-    padding: 10px 40px 0px 40px;
-}
+section#corpo{
+    position: absolute;
+    width: 55%;
+    height: 84%;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
 
-/* Barra acima do texto e Olá sou Fernando Cruz */
-aside#lateral_01 h1 {
-    position: relative;
-    border-top: 3px solid #000050;
-    margin-top: 15px;
-    font-size: 25pt;
-    text-align: center;
-}
+    & #aside-01{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 90%;
+        border-bottom: 2px solid #000050;
 
-/* Texto parágrafo */
-aside#lateral_01 p {
-    position: relative;
-    font-size: 12pt;
-    text-align: justify;
-    text-indent: 50px;
-    margin-top: -30px;
-    margin-bottom: -20px;
-}
+        & #foto-sociais{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
 
-/* roda pé */
-section#corpo footer#rodape {
-    clear: both;
-    position: relative;
-    width: 800px;
-    margin-top: 10px;
-    border-top: 2px solid #000050;
-}
+            & img{
+                width: 80%;
+                border-radius: 10px;
+                margin: 20px;
+                box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+            }
 
-section#corpo footer#rodape p {
-    text-align: center;
-    font-size: 10pt;
-    margin-top: 10px;
+            & #rede-social {
+                display: block;
+                width: 50%;
+                padding: 5px;
+                margin-top: -40px;
+                margin-bottom: 20px;
+                text-align: center;
+                color: #000050;
+                background-color: #c5c5ff;
+                box-shadow: 3px 3px 3px rgba(0,0,80,.5);
+
+                    & a{
+                        text-decoration: none;
+                        color: #000050;
+                    }
+
+                    & a:hover{
+                        font-weight: bold;
+                        color: #810095;
+                        transform: scale(1.1);
+                        transition: 0.3s ease-in-out;    
+                    }
+            }
+        }
+
+        & #dados-pessoais{
+            width: 50%;
+            margin-left: 30px;
+
+            & h1{
+                font-size: 2.5em;
+            }
+
+            & h2{
+                font-size: 1em;
+                margin-top: 5px;
+                color: #606060;
+            }
+            
+            & h3{
+                font-size: 1.5em;
+                margin-top: 15px;
+            }
+        }
+    }
 }
