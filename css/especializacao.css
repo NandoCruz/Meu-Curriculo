@@ -1,19 +1,22 @@
 @charset "UTF-8";
 
-/* Texto da lateral esquerda */
-aside#lateral_01 {
-    position: relative;
-    display: block;
-    float: left;
-    font-size: 18pt;
-    padding-left: 20px;
-}
+section#corpo{
+    display: flex;
+    flex-direction: column;
 
-/* Texto da Lateral direita */
-aside#lateral_02 {
-    position: relative;
-    display: block;
-    float: right;
-    font-size: 18pt;
-    padding-right: 20px;
+    & .cursos{
+        display: flex;
+        justify-content: space-around;
+
+        /* Texto da lateral esquerda */
+        & aside#lateral-01, aside#lateral-02 {
+            margin-top: 50px;
+            font-size: 22px;
+
+            & ul{
+                list-style: none;
+            }
+        }
+    }
+    
 }

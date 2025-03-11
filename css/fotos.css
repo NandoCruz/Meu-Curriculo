@@ -20,7 +20,7 @@ section#corpo {
     }
 
     /* texto paragrafo da página */
-    & p{
+    & p.descricao{
         font-size: 16pt;
         text-align: justify;
         text-indent: 50px;
