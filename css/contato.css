@@ -1,17 +1,25 @@
 @charset "UTF-8";
-section#corpo h1 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 30pt;
-    margin-bottom: 0px;
-}
+section#corpo{
+    display: flex;
+    flex-direction: column;
+    & h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30pt;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
 
-section#corpo ul{
-    display: block;
-}
+    & ul#logos{
+        text-align: center;
+        width: 65%;
+        display:block;
+        margin: auto;
 
-section#corpo li {
-    display: inline-block;
-    padding: 20px 20px 20px 20px;
-    margin-left: 25px;
+        & li {
+            display: inline-block;
+            list-style: none;
+            margin: 50px 20px 50px 20px;            
+        }
+    }
 }
