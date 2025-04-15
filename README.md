@@ -7,7 +7,12 @@
 
  ![Imagem Inicial](https://github.com/NandoCruz/Meu-Curriculo/blob/master/imagens/site.png)
 
-![AssinaturaOnLine](https://user-images.githubusercontent.com/47435625/133949021-a75e5344-9b28-494d-8b81-5386e1958eee.png)
+##
+![AssinaturaOnLine](https://github.com/NandoCruz/PowerBI-dashboard/blob/main/imagens/AssinaturaOnLine.png)
 
 ## Siga-me nas redes sociais
-### [Instagram](https://www.instagram.com/fcruz6241/) | [Linkedin](https://www.linkedin.com/feed/) | [Whatsapp](https://api.whatsapp.com/send?1=pt_br&phone=558398388777)
+<div>
+  <a href="https://www.linkedin.com/in/fernando-cruz1005" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://api.whatsapp.com/send?1=pt_br&phone=558398388777" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+  <a href="https://www.instagram.com/fcruz6241/" target="_blank"><img src="https://img.shields.io/badge/Instagram-0077B5?style=for-the-badge&logo=instagram&logoColor=white"></a>
+</div>
